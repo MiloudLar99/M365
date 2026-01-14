@@ -74,7 +74,7 @@ Vérifier que les utilisateurs et groupes Active Directory on-premises sont corr
 
 - Pour forcer la synchronisation entre mon AD et mon entra, j'exécuterai la commande suivante dans la console :
 
-![](../screenshots/![](../screenshots/Force-Sync-Entra.png)
+![](../screenshots/Force-Sync-Entra.png)
 
 
 1. Accès au Microsoft Entra Admin Center.
