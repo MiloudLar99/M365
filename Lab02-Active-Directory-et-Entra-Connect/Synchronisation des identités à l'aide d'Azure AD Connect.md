@@ -76,6 +76,8 @@ Vérifier que les utilisateurs et groupes Active Directory on-premises sont corr
 
 ![](../screenshots/Force-Sync-Entra.png)
 
+#### - Remarque : une synchronisation Delta permet de répliquer uniquement les changements récents, ce qui est suffisant dans ce laboratoire.
+
 
 1. Accès au Microsoft Entra Admin Center.
 2. Vérification des utilisateurs synchronisés
