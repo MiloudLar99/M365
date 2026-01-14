@@ -1,4 +1,4 @@
-# Practice Lab 03: Configuring and managing Entra Join
+# Laboratoire pratique 03 : Configuration et gestion d'Entra Join
 
 ## Exercise 1 – Configuration de Microsoft Entra Join
 
