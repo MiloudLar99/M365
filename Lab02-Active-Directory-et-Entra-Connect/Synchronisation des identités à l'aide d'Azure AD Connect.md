@@ -61,17 +61,33 @@ Configurer la synchronisation d’annuaire entre Active Directory on-premises et
 
 Vérifier que les utilisateurs et groupes Active Directory on-premises sont correctement synchronisés vers Microsoft Entra ID.
 
+-Avant de vérifier la synchronisation, je vais créer les utilisateurs et les groupes dans mon AD afin de pouvoir les synchroniser avec mon Entra.
+
+![](../screenshots/Creation-OU-AD.png)
+
+![](../screenshots/Creation-User-AD.png)
+
+![](../screenshots/Grup-AD.png)
+
+![](../screenshots/MemberofGroupItAG.png)
+
+
+- Pour forcer la synchronisation entre mon AD et mon entra, j'exécuterai la commande suivante dans la console :
+
+![](../screenshots/![](../screenshots/Force-Sync-Entra.png)
+
+
 1. Accès au Microsoft Entra Admin Center.
 2. Vérification des utilisateurs synchronisés
    - Menu *Users*
    - Présence des utilisateurs issus d'*AD DS*
    - Colonne *On-premises sync enabled = yes*
-     ![](../screenshots/ConfigurationComplete.png)
+     ![](../screenshots/UserAD-Sync-Entra.png)
 3. Vérification des groupes synchronisés
    - Menu *Groups > All groups*
    - Groupes issus d'*AD DS*
    - Colonne *Source = windows Server AD*
-     ![](../screenshots/ConfigurationComplete.png)
+     ![](../screenshots/Grup-Sync-Entra.png)
 4. Vérification d'un groupe synchronisé
    - Sélection du groupe *Managers*
    - Membres visibles
