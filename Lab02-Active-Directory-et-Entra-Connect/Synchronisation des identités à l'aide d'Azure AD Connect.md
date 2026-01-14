@@ -92,5 +92,5 @@ Vérifier que les utilisateurs et groupes Active Directory on-premises sont corr
    - Sélection du groupe *Managers*
    - Membres visibles
    - Modification impossible (source AD on-premises)
-     ![](../screenshots/ConfigurationComplete.png)
+     ![](../screenshots/ManageGroupEntra.png)
 
