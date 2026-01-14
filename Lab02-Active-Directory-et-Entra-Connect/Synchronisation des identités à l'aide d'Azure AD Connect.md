@@ -5,13 +5,13 @@
 Contoso Corporation gérait les utilisateurs séparément dans **AD DS** et **Microsoft Entra ID**, ce qui entraînait des incohérences et une gestion inefficace.  
 L’objectif de ce lab est de **connecter les deux annuaires** à l’aide de **Microsoft Entra Connect** afin de centraliser la gestion des identités.
 
-## Task 1 – Configuration de la synchronisation avec Microsoft Entra Connect
+## Tâche 1 – Configuration de la synchronisation avec Microsoft Entra Connect
 
 🎯 Objectif
 
 Configurer la synchronisation d’annuaire entre Active Directory on-premises et Microsoft Entra ID à l’aide de Microsoft Entra Connect Sync.
 
-## Task 1.1  Installation d’Active Directory Domain Services et création de la forêt
+## Tâche 1.1  Installation d’Active Directory Domain Services et création de la forêt
 
 1. Installation du rôle Active Directory Domain Services  
 3. Promotion du serveur en contrôleur de domaine (création de la forêt)   
@@ -55,7 +55,7 @@ Configurer la synchronisation d’annuaire entre Active Directory on-premises et
  
  ![](../screenshots/ConfigurationComplete.png)
 
-## Task 2 – Vérification de la synchronisation dans Microsoft Entra ID
+## Tâche 2 – Vérification de la synchronisation dans Microsoft Entra ID
 
 🎯 Objectif
 
