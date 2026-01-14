@@ -125,9 +125,17 @@ Certains appareils Windows Contoso sont actuellement connectés aux services de 
 ### Tâche 1 – Préparation de l’environnement (Non exécutée)
 1. Accès au serveur SEA-SVR1 et ouverture de Active Directory Users and Computers.
 2. Création d’une nouvelle unité d’organisation (OU) nommée Entra ID clients au niveau du domaine Contoso.com.
-3. Sélection de l’ordinateur SEA-CL2 depuis l’OU Seattle Clients.
-4. Déplacement de l’ordinateur SEA-CL2 vers l’OU Entra ID clients afin de le préparer à la synchronisation avec Microsoft Entra ID.
-5. Fermeture de la console Active Directory Users and Computers.
+
+   ![](../screenshots/Creation-EntraIdClients.png)
+   
+4. Sélection de l’ordinateur SEA-CL2 depuis l’OU Seattle Clients.
+
+    ![](../screenshots/Seattle-Clients.png)
+   
+6. Déplacement de l’ordinateur SEA-CL2 vers l’OU Entra ID clients afin de le préparer à la synchronisation avec Microsoft Entra ID.
+
+    ![](../screenshots/Move-to-EntraID.png)
+   
 
 ### Tâche 2 – Configuration du Microsoft Entra Hybrid Join via Entra Connect (Non exécutée)
 1. Accès au serveur *SEA-SVR1* et lancement de Microsoft Entra Connect Sync.
