@@ -140,14 +140,25 @@ Certains appareils Windows Contoso sont actuellement connectés aux services de 
 ### Tâche 2 – Configuration du Microsoft Entra Hybrid Join via Entra Connect (Non exécutée)
 1. Accès au serveur *SEA-SVR1* et lancement de Microsoft Entra Connect Sync.
 2. Sélection de l’option Configure, puis Configure device options.
-3. Connexion au tenant Microsoft Entra ID à l’aide d’un compte administrateur.
-4. Sélection de l’option Configure Hybrid Microsoft Entra ID Join.
-5. Choix des appareils Windows 10 ou ultérieurs joints au domaine comme systèmes concernés.
-6. Configuration du Service Connection Point (SCP) pour le domaine Contoso.com, avec Microsoft Entra ID comme service d’authentification.
-7. Validation de la configuration à l’aide des identifiants Enterprise Administrator.
-8. Lancement de la configuration afin d’appliquer les paramètres Hybrid Join.
-9. Redémarrage du poste SEA-CL2 pour permettre la découverte du SCP et préparer l’enregistrement Hybrid Join.
-10. Connexion au poste SEA-CL2 avec un compte administrateur du domaine.
+
+   ![](../screenshots/Configure-Device-Op.png)
+
+   ![](../screenshots/Connect-Miloudlabs.png)
+   
+6. Sélection de l’option Configure Hybrid Microsoft Entra ID Join.
+
+   ![](../screenshots/Microso-Entra-ID.png)
+   
+10. Configuration du Service Connection Point (SCP) pour le domaine Contoso.com, avec Microsoft Entra ID comme service d’authentification.
+11. Validation de la configuration à l’aide des identifiants Enterprise Administrator.
+
+   ![](../screenshots/SCP-Contoso.png)
+
+13. Lancement de la configuration afin d’appliquer les paramètres Hybrid Join.
+14. Redémarrage du poste SEA-CL2 pour permettre la découverte du SCP et préparer l’enregistrement Hybrid Join.
+15. Connexion au poste SEA-CL2 avec un compte administrateur du domaine.
+
+    ![](../screenshots/Conf-Compl-SCP.png)
 
 
 ### Tâche 3 – Reconfiguration de la synchronisation Entra Connect (Non exécutée)
