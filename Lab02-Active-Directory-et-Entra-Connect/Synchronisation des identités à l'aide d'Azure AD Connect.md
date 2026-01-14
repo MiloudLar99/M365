@@ -66,12 +66,15 @@ Vérifier que les utilisateurs et groupes Active Directory on-premises sont corr
    - Menu *Users*
    - Présence des utilisateurs issus d'*AD DS*
    - Colonne *On-premises sync enabled = yes*
+     ![](../screenshots/ConfigurationComplete.png)
 3. Vérification des groupes synchronisés
    - Menu *Groups > All groups*
    - Groupes issus d'*AD DS*
    - Colonne *Source = windows Server AD*
+     ![](../screenshots/ConfigurationComplete.png)
 4. Vérification d'un groupe synchronisé
    - Sélection du groupe *Managers*
    - Membres visibles
    - Modification impossible (source AD on-premises)
+     ![](../screenshots/ConfigurationComplete.png)
 
