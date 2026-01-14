@@ -145,18 +145,18 @@ Certains appareils Windows Contoso sont actuellement connectés aux services de 
 
    ![](../screenshots/Connect-Miloudlabs.png)
    
-6. Sélection de l’option Configure Hybrid Microsoft Entra ID Join.
+3. Sélection de l’option Configure Hybrid Microsoft Entra ID Join.
 
    ![](../screenshots/Microso-Entra-ID.png)
    
-10. Configuration du Service Connection Point (SCP) pour le domaine Contoso.com, avec Microsoft Entra ID comme service d’authentification.
-11. Validation de la configuration à l’aide des identifiants Enterprise Administrator.
+4. Configuration du Service Connection Point (SCP) pour le domaine Contoso.com, avec Microsoft Entra ID comme service d’authentification.
+5. Validation de la configuration à l’aide des identifiants Enterprise Administrator.
 
    ![](../screenshots/SCP-Contoso.png)
 
-13. Lancement de la configuration afin d’appliquer les paramètres Hybrid Join.
-14. Redémarrage du poste SEA-CL2 pour permettre la découverte du SCP et préparer l’enregistrement Hybrid Join.
-15. Connexion au poste SEA-CL2 avec un compte administrateur du domaine.
+6. Lancement de la configuration afin d’appliquer les paramètres Hybrid Join.
+7. Redémarrage du poste SEA-CL2 pour permettre la découverte du SCP et préparer l’enregistrement Hybrid Join.
+8. Connexion au poste SEA-CL2 avec un compte administrateur du domaine.
 
     ![](../screenshots/Conf-Compl-SCP.png)
 
