@@ -163,5 +163,7 @@ Certains appareils Windows Contoso sont actuellement connectés aux services de 
 
 ### Tâche 3 – Reconfiguration de la synchronisation Entra Connect (Non exécutée)
 
+1.
+
 
 
