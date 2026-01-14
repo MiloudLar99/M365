@@ -19,7 +19,7 @@ Configurer la synchronisation d’annuaire entre Active Directory on-premises et
 7. Installation et démarrage de Microsoft Entra Connect Sync
 9. Configuration du compte de forêt Active Directory
     
-![](screenshots/Final-Detalle.png)
+![](../screenshots/Final-Detalle.png)
 
 1. Accès à Entra Connect
 - Conexion au *Microsoft Entra Admin Center*
@@ -27,7 +27,7 @@ Configurer la synchronisation d’annuaire entre Active Directory on-premises et
 - Onglet Manage
 - Télécharger *Connect Sync Agent*
   
-![](screenshots/Download-Connect.png)
+![](../screenshots/Download-Connect.png)
 
 2. Installation de Microsoft Entra Connect
   - Lancer AzureAdConnect.msi
@@ -35,25 +35,25 @@ Configurer la synchronisation d’annuaire entre Active Directory on-premises et
   - Mode *Customize*
   - Installer les composants requis.
     
-    ![](screenshots/Installation-Connect.png)
+    ![](../screenshots/Installation-Connect.png)
     
 3. Configuration de l'authentification
   - Méthode: *Password Hash Synchronization*
   - Connexion avec le compte elmiloudlarhlid@labsm365.onmicrosoft.com
     
-   ![](screenshots/Hash-Pawwsord.png)
+   ![](../screenshots/Hash-Pawwsord.png)
   
 4. Connexion à l'Active Directory
  - Connexion à Microsoft Entra ID
  - Connexion à Active Directory (Contoso.com)
    
-  ![](screenshots/addForest-LabsMiloud.png)
+  ![](../screenshots/addForest-LabsMiloud.png)
   
 7. Finalisation
    
- ![](screenshots/ReadytoConfigure.png)
+ ![](../screenshots/ReadytoConfigure.png)
  
- ![](screenshots/ConfigurationComplete.png)
+ ![](../screenshots/ConfigurationComplete.png)
 
 ## Task 2 – Vérification de la synchronisation dans Microsoft Entra ID
 
