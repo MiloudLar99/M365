@@ -1,7 +1,7 @@
-# Practice Lab 0101: Managing Identities in Entra ID
+# Laboratoire pratique 0101 : Gestion des identités dans Entra ID
 
 
-##  Exercise 1: Creating users in Entra ID
+##  Exercice 1 : Création d'utilisateurs dans Entra ID
 🎯 Objectif
 
 Créer des comptes utilisateurs directement dans Microsoft Entra ID via le portail d’administration.
@@ -81,7 +81,7 @@ Analyser et attribuer des rôles administratifs aux utilisateurs du tenant Micro
 | Cody Godinez    | Contoso_Sales      | Office 365 E5 + EMS E5 (**direct assignment**)                                     |
 
 
-### Task 1 – Création d’un groupe de sécurité dans Microsoft Entra ID
+### Tâche 1 – Création d’un groupe de sécurité dans Microsoft Entra ID
 🎯 Objectif
 
 Créer un groupe de sécurité et y ajouter des utilisateurs via le portail Microsoft Entra.
@@ -108,7 +108,7 @@ Miranda Snider
 Sélectionner Create
 ![](../screenshots/Contoso_Managers.png)
 
-### Task 2 – Création d’un groupe et ajout d’un membre via PowerShell
+### Tâche 2 – Création d’un groupe et ajout d’un membre via PowerShell
 
 🎯 Objectif
 
@@ -122,7 +122,7 @@ Créer un groupe de sécurité et ajouter un utilisateur à l’aide de PowerShe
    
 ![](../screenshots/Grupos-pwsh.png)
 
-## Task 3 – Gestion des licences et personnalisation du branding Microsoft Entra
+## Tâche 3 – Gestion des licences et personnalisation du branding Microsoft Entra
 
 🎯 Objectif
 
